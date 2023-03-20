@@ -1,0 +1,45 @@
+exceptions in java 2 type 
+	exception 
+	1. checked exceptions		compalsary to handle
+	2. unchecked exception 		not compalsary to handle
+
+
+
+
+					[(Predefined Exception)]
+											[	hirarche of exceptions	]
+																						
+													Throwable
+													    |
+	Error																					Exception	
+	|					  (unchecked)													     	    |
+OutOfMemoryError				RuntimeException							IOException					FileNotFoundException	
+StackOverFlowError				|														SQLException	
+						NullPoinerException												ClassNotFountException	
+						NumberFormatException	
+						ArithmaticException
+						ArrayIndexOutOFBoundException
+						ClassCastException	
+			
+
+
+handle exception 	
+	
+	
+	try catch
+
+
+try 
+{
+	//statement
+}			
+catch(<excep_type><excep+obj>)
+{
+	//statement
+}
+finally	//it will execute at any condtion if there is exception or not
+{
+	//statement
+}
+
+									[(Use Defined Exception)]

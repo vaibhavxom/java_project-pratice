@@ -1,0 +1,25 @@
+Test clss
+
+Test suit
+
+test class rule 
+1. Annotation @Test 
+2. Scope public 
+3. retrn type Void 
+
+MultiThreading :-
+
+*thread is a part of a program	[a single Thread is called main thread by default]
+
+*multiThreading :-
+to perform multiple task at the same time 
+
+1.Extending Thread class
+2.Implementing Runnable interfce
+
+implementing thread 
+steps 1.inherit thread
+	2.overrid run()
+	3.create Thread Object
+	4.Start Thread 
+
