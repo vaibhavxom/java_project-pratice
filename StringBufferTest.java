@@ -26,7 +26,7 @@ public static void main(String [] args)
 	
 	System.out.println(sb1);
 
-	sb1.reverse();
+	sb1.reverse();        //to rev string 
 	System.out.println(sb1);
 	}
 }
